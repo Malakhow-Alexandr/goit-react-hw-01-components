@@ -1,0 +1,25 @@
+export const theme = Object.freeze({
+  colorsProfile: {
+    profileBackground: '#3399ff',
+    cardhadow: `0px 1px 3px rgba(0, 0, 0, 0.12),
+0px 1px 1px rgba(0, 0, 0, 0.14),
+0px 2px 1px rgba(0, 0, 0, 0.2)`,
+    white: '#ffffff',
+    black: '#010101',
+    profileListBgcolor: '#E4EFEF',
+    profileOutline: '#bcd7d7',
+    primaryText: '#212121',
+    secondaryText: '#757575',
+  },
+  colorsStatistics: {
+    grey: '#DFDFDF',
+    blue: 'blue',
+    green: 'green',
+    coral: 'coral',
+    navy: 'navy',
+    orangeRed: 'orangered',
+    white: '#ffffff',
+    black: '#010101',
+  },
+  spacing: value => `${4 * value}px`,
+});
