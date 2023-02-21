@@ -35,19 +35,19 @@ export const StatListItem = styled.li`
   outline: 1px solid gray;
   box-shadow: ${props => `${props.theme.colorsStatistics.shadow}`};
 
-  &:nth-child(1) {
+  &:nth-of-type(1) {
     background-color: ${props => `${props.theme.colorsStatistics.blue}`};
   }
-  &:nth-child(2) {
+  &:nth-of-type(2) {
     background-color: ${props => `${props.theme.colorsStatistics.green}`};
   }
-  &:nth-child(3) {
+  &:nth-of-type(3) {
     background-color: ${props => `${props.theme.colorsStatistics.violet}`};
   }
-  &:nth-child(4) {
+  &:nth-of-type(4) {
     background-color: ${props => `${props.theme.colorsStatistics.orangeRed}`};
   }
-  &:nth-child(5) {
+  &:nth-of-type(5) {
     background-color: ${props => `${props.theme.colorsStatistics.navy}`};
   }
 `;

@@ -20,5 +20,19 @@ export const theme = Object.freeze({
     black: '#010101',
     shadow: 'rgb(0 0 0 / 20%) 0px 2px 7px;',
   },
-  spacing: value => `${4 * value}px`,
+  colorsFriends: {
+    green: '#03C03C',
+    orangeRed: '#FF3300',
+    shadow: 'rgb(0 0 0 / 50%) 0px 2px 7px;',
+    black: '#010101',
+    white: '#ffffff',
+  },
+  tableColors: {
+    white: '#ffffff',
+    secondaryText: '#757575',
+    blue: 'rgb(0, 200, 230)',
+    outline: '#bcd7d7',
+    backgroundItem: 'rgb(245, 244, 250)',
+    shadow: 'rgb(0 0 0 / 50%) 0px 2px 7px;',
+  },
 });
