@@ -1,10 +1,10 @@
 import styled from '@emotion/styled';
 
 export const Board = styled.section`
-  width: 500px;
-  height: 450px;
+  width: 440px;
   border-radius: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
+  padding: 50px 0px;
   display: flex;
   align-items: center;
   justify-content: center;

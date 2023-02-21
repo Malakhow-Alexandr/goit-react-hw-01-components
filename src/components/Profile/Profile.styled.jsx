@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const ProfileCard = styled.div`
-  width: 350px;
+  width: 300px;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: ${props => `${props.theme.colorsProfile.cardhadow}`};
@@ -10,7 +10,7 @@ export const ProfileCard = styled.div`
 
 export const ProfileInfo = styled.div`
   text-align: center;
-  padding: 30px;
+  padding: 40px;
 
   img {
     width: 130px;
@@ -50,7 +50,7 @@ export const Stats = styled.ul`
 `;
 
 export const StatsItem = styled.li`
-  width: 117px;
+  width: 100px;
   text-align: center;
   padding: 20px 0px;
   outline: 1px solid ${props => `${props.theme.colorsProfile.profileOutline}`};
