@@ -11,7 +11,7 @@ import {
 export const Statistic = ({ stats, title }) => {
   return (
     <Card>
-      <Title>{title}</Title>
+      {title && <Title>{title}</Title>}
 
       <StatList>
         {stats.map(stat => (
