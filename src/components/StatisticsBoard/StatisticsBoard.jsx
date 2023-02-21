@@ -1,4 +1,5 @@
 import { Statistic } from 'components/Statistics/Statistics';
+import { Board } from './StatisticsBoard.styled';
 
 export const StatisticsBoard = ({ data }) => {
   return (
