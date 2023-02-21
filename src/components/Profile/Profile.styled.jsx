@@ -13,11 +13,13 @@ export const ProfileInfo = styled.div`
   padding: 30px;
 
   img {
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
+    border-radius: 50%;
+    box-shadow: rgb(0 0 0 / 50%) 0px 2px 7px;
   }
 `;
 
